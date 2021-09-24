@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Technical Documentation Page</title>
+
+    <!-- Style CSS -->
+    <link href="asset/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <!--<header class="header">
+      <div class="container">
+        <div class="header__container">-->
+    <!-- Navbar Hamburger -->
+    <!--<div class="menu-btn" onclick="toggleSidebar(this);">
+            <div class="menu-btn__lines"></div>
+          </div>
+        </div>
+      </div>
+    </header>-->
+
+    <!-- Navbar -->
+    <div class="nav-sidebar">
+      <div class="container">
+        <nav id="navbar" class="nav__container">
+          <header>
+            <span class="title">Web Develop Docs</span>
+          </header>
+          <!-- Hamburger -->
+          <!--<div class="menu-btn">
+            <div class="menu-btn__lines"></div>
+          </div>-->
+          <div class="nav-list">
+            <!-- HTML Sidebar -->
+            <div class="nav-item">
+              <br />
+              <a href="#HTML" class="nav-link">
+                <span class="nav-title">HTML</span>
+              </a>
+              <div class="nav_dropdown">
+                <a href="#Introduction_to_HTML">
+                  <span class="nav-titlesub">Introduction to HTML</span>
+                  <i class="fa fa-chevron-right nav_dropdown-icon" aria-hidden="true"></i>
+                </a>
+                <div class="dropdown-collapse">
+                  <div class="dropdown-content">
+                    <a href="#Introduction_to_HTML_overview" class="nav-link dropdown-item">Introduction to HTML overview</a>
+                    <a href="#Getting_started_with_HTML" class="nav-link dropdown-item">Getting started with HTML</a>
+                  </div>
+                </div>
+              </div>
+              <div class="nav_dropdown">
+                <a href="#Multimedia_and_embedding">
+                  <span class="nav-titlesub">Multimedia and embedding</span>
+                  <i class="fa fa-chevron-right nav_dropdown-icon" aria-hidden="true"></i>
+                </a>
+                <div class="dropdown-collapse">
+                  <div class="dropdown-content">
+                    <a href="#Multimedia_and_embedding_overview" class="nav-link dropdown-item">Multimedia and embedding overview</a>
+                    <a href="#Images_in_HTML" class="nav-link dropdown-item">Images in HTML</a>
+                  </div>
+                </div>
+              </div>
+              <div class="nav_dropdown">
+                <a href="#HTML_Tables">
+                  <span class="nav-titlesub">HTML Tables</span>
+                  <i class="fa fa-chevron-right nav_dropdown-icon" aria-hidden="true"></i>
+                </a>
+                <div class="dropdown-collapse">
+                  <div class="dropdown-content">
+                    <a href="#HTML_tables_overview" class="nav-link dropdown-item">HTML tables overview</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- CSS Sidebar -->
+            <div class="nav-item">
+              <a href="#CSS" class="nav-link">
+                <span class="nav-title">CSS</span>
+              </a>
+              <div class="nav_dropdown">
+                <a href="#CSS_first_steps">
+                  <span class="nav-titlesub">CSS first steps</span>
+                  <i class="fa fa-chevron-right nav_dropdown-icon" aria-hidden="true"></i>
+                </a>
+                <div class="dropdown-collapse">
+                  <div class="dropdown-content">
+                    <a href="#CSS_first_steps_overview" class="nav-link dropdown-item">CSS first steps overview</a>
+                    <a href="#What_is_CSS?" class="nav-link dropdown-item">What is CSS?</a>
+                  </div>
+                </div>
+              </div>
+              <div class="nav_dropdown">
+                <a href="#CSS_buildin_gblocks">
+                  <span class="nav-titlesub">CSS building blocks</span>
+                  <i class="fa fa-chevron-right nav_dropdown-icon" aria-hidden="true"></i>
+                </a>
+                <div class="dropdown-collapse">
+                  <div class="dropdown-content">
+                    <a href="#CSS_building_blocks_overview" class="nav-link dropdown-item">CSS building blocks overview</a>
+                    <a href="#Cascade_and_inheritance" class="nav-link dropdown-item">Cascade and inheritance</a>
+                  </div>
+                </div>
+              </div>
+              <div class="nav_dropdown">
+                <a href="#Styling_text">
+                  <span class="nav-titlesub">Styling text</span>
+                  <i class="fa fa-chevron-right nav_dropdown-icon" aria-hidden="true"></i>
+                </a>
+                <div class="dropdown-collapse">
+                  <div class="dropdown-content">
+                    <a href="#Styling_text_overview" class="nav-link dropdown-item">Styling text overview</a>
+                  </div>
+                </div>
+              </div>
+              <div class="nav_dropdown">
+                <a href="#CSS_layout">
+                  <span class="nav-titlesub">CSS layout</span>
+                  <i class="fa fa-chevron-right nav_dropdown-icon" aria-hidden="true"></i>
+                </a>
+                <div class="dropdown-collapse">
+                  <div class="dropdown-content">
+                    <a href="#CSS_layout_overview" class="nav-link dropdown-item">CSS layout overview</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <main id="main-doc">
+      <section class="main-section" id="HTML">
+        <header class="doc-title"><u>HTML</u></header>
+        <div class="container">
+          <article class="document">
+            <p>
+              To build websites, you should know about HTML — the fundamental technology used to define the structure of a webpage. HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link,
+              image, multimedia player, form, or one of many other available elements or even a new element that you define.
+            </p>
+            <aside class="box-intro">
+              <h3>Looking to become a front-end web developer?</h3>
+              <p>We have put together a course that includes all the essential information you need to work towards your goal.</p>
+              <div class="btn-control">
+                <a class="btn btn-intro" href="">Get started</a>
+              </div>
+            </aside>
+            <h3 class="doc-sub-title">Prerequisites</h3>
+            <p>
+              Before starting this topic, you should have at least basic familiarity with using computers and using the web passively (i.e. just looking at it, consuming the content). You should have a basic work environment set up as
+              detailed in Installing basic software, and understand how to create and manage files, as detailed in Dealing with files — both are parts of our <a href="#started_with_HTML">Getting started with the web</a> complete beginner's
+              module.
+            </p>
+            <p>
+              It is recommended that you work through <a href="#started_with_HTML">Getting started with the web</a> before attempting this topic. However, this isn't absolutely necessary; much of what is covered in the HTML basics article
+              is also covered in our <a href="#HTML_overview">Introduction to HTML</a> module, albeit in a lot more detail.
+            </p>
+            <p>After learning HTML, you can then move on to learning about more advanced topics such as:</p>
+            <ul>
+              <li>
+                <p>
+                  <a href="#styling_the_web">CSS</a>, and how to use it to style HTML (for example alter your text size and fonts used, add borders and drop shadows, layout your page with multiple columns, add animations and other visual
+                  effects.)
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="#javascript">JavaScript</a>, and how to use it to add dynamic functionality to web pages (for example find your location and plot it on a map, make UI elements appear/disappear when you toggle a button, save
+                  users' data locally on their computers, and much more.)
+                </p>
+              </li>
+            </ul>
+            <h3 class="doc-sub-title">Modules</h3>
+            <p>This topic contains the following modules, in a suggested order for working through them. You should definitely start with the first one.</p>
+            <a class="title-link">Introduction to HTML</a>
+            <ul class="text-list">
+              <li><p>This module sets the stage, getting you used to important concepts and syntax, looking at applying HTML to text, how to create hyperlinks, and how to use HTML to structure a webpage.</p></li>
+            </ul>
+            <a class="title-link">Multimedia and embedding</a>
+            <ul class="text-list">
+              <li><p>This module explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to embed video, audio, and even entire other webpages.</p></li>
+            </ul>
+            <a class="title-link">HTML tables</a>
+            <ul class="text-list">
+              <li>
+                <p>Representing tabular data on a webpage in an understandable, accessible way can be a challenge. This module covers basic table markup, along with more complex features such as implementing captions and summaries.</p>
+              </li>
+            </ul>
+            <h2 class="doc-sub-title">Solving common HTML problems</h2>
+            <p>
+              <a href="#">Use HTML to solve common problems</a> provides links to sections of content explaining how to use HTML to solve very common problems when creating a webpage: dealing with titles, adding images or videos,
+              emphasizing content, creating a basic form, etc.
+            </p>
+            <h3>See also</h3>
+            <br />
+            <a class="title-link" href="#">Web forms</a>
+            <ul class="text-list">
+              <li>
+                <p>
+                  This module provides a series of articles that will help you master the essentials of web forms. Web forms are a very powerful tool for interacting with users — most commonly they are used for collecting data from users,
+                  or allowing them to control a user interface. However, for historical and technical reasons it's not always obvious how to use them to their full potential. We'll cover all the essential aspects of Web forms including
+                  marking up their HTML structure, styling form controls, validating form data, and submitting data to the server.
+                </p>
+              </li>
+            </ul>
+            <a class="title-link" href="#">HTML (HyperText Markup Language)</a>
+            <ul class="text-list">
+              <li>
+                <p>
+                  The main entry point for HTML reference documentation on MDN, including detailed element and attribute references — if you want to know what attributes an element has or what values an attribute has, for example, this is a
+                  great place to start.
+                </p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="main-section" id="Introduction_to_HTML_overview">
+        <header class="doc-title">Introduction to HTML overview</header>
+        <div class="container">
+          <article class="document">
+            <p>
+              At its heart, HTML is a fairly simple language made up of elements, which can be applied to pieces of text to give them different meaning in a document (Is it a paragraph? Is it a bulleted list? Is it part of a table?),
+              structure a document into logical sections (Does it have a header? Three columns of content? A navigation menu?), and embed content such as images and videos into a page. This module will introduce the first two of these and
+              introduce fundamental concepts and syntax you need to know to understand HTML.
+            </p>
+            <aside class="box-intro">
+              <h3>Looking to become a front-end web developer?</h3>
+              <p>We have put together a course that includes all the essential information you need to work towards your goal.</p>
+              <div class="btn-control">
+                <a class="btn btn-intro" href="">Get started</a>
+              </div>
+            </aside>
+            <h3 class="doc-sub-title">Prerequisites</h3>
+            <p>
+              Before starting this module, you don't need any previous HTML knowledge, but you should have at least basic familiarity with using computers and using the web passively (i.e., just looking at it and consuming content). You
+              should have a basic work environment set up (as detailed in Installing basic software), and understand how to create and manage files (as detailed in Dealing with files). Both are parts of our
+              <a href="#started_with_HTML">Getting started with the web</a> complete beginner's module.
+            </p>
+            <aside class="box-note">
+              <p>
+                <span class="title-note">Note:</span> If you are working on a computer/tablet/other devices that doesn't let you create your own files, you can try out (most of) the code examples in an online coding program such as
+                <a href="">JSBin</a> or <a href="">Glitch</a>.
+              </p>
+            </aside>
+            <h3 class="doc-sub-title">Guides</h3>
+            <p>This module contains the following articles, which will take you through all the basic theory of HTML and provide ample opportunity for you to test out some skills.</p>
+            <a class="title-link" href="#">Getting started with HTML</a>
+            <ul class="text-list">
+              <li>
+                <p>
+                  Covers the absolute basics of HTML, to get you started — we define elements, attributes, and other important terms, and show where they fit in the language. We also show how a typical HTML page is structured and how an
+                  HTML element is structured, and explain other important basic language features. Along the way, we'll play with some HTML to get you interested!
+                </p>
+              </li>
+            </ul>
+            <a class="title-link" href="#">What’s in the head? Metadata in HTML</a>
+            <ul class="text-list">
+              <li>
+                <p>
+                  The head of an HTML document is the part that <strong>is not</strong> displayed in the web browser when the page is loaded. It contains information such as the page
+                  <code><span><</span><span>title</span><span>></span></code
+                  >, links to CSS (if you want to style your HTML content with CSS), links to custom favicons, and metadata (data about the HTML, such as who wrote it, and important keywords that describe the document).
+                </p>
+              </li>
+            </ul>
+            <a class="title-link" href="#">HTML text fundamentals</a>
+            <ul class="text-list">
+              <li>
+                <p>
+                  One of HTML's main jobs is to give text meaning (also known as semantics), so that the browser knows how to display it correctly. This article looks at how to use HTML to break up a block of text into a structure of
+                  headings and paragraphs, add emphasis/importance to words, create lists, and more.
+                </p>
+              </li>
+            </ul>
+            <a class="title-link" href="#">Creating hyperlinks</a>
+            <ul class="text-list">
+              <li><p>Hyperlinks are really important — they are what makes the web a web. This article shows the syntax required to make a link and discusses best practices for links.</p></li>
+            </ul>
+            <a class="title-link" href="#">Advanced text formatting</a>
+            <ul class="text-list">
+              <li>
+                <p>
+                  There are many other elements in HTML for formatting text that we didn't get to in the HTML text fundamentals article. The elements here are less well-known, but still useful to know about. In this article, you'll learn
+                  about marking up quotations, description lists, computer code and other related text, subscript and superscript, contact information, and more.
+                </p>
+              </li>
+            </ul>
+            <a class="title-link" href="#">Document and website structure</a>
+            <ul class="text-list">
+              <li>
+                <p>
+                  As well as defining individual parts of your page (such as "a paragraph" or "an image"), HTML is also used to define areas of your website (such as "the header," "the navigation menu," or "the main content column.") This
+                  article looks into how to plan a basic website structure and how to write the HTML to represent this structure.
+                </p>
+              </li>
+            </ul>
+            <a class="title-link" href="#">Debugging HTML</a>
+            <ul class="text-list">
+              <li><p>Writing HTML is fine, but what if something goes wrong, and you can't work out where the error in the code is? This article will introduce you to some tools that can help.</p></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="main-section" id="Getting_started_with_HTML">
+        <header class="doc-title">Getting started with HTML</header>
+        <div class="container">
+          <article class="document">
+            <p>
+              In this article we cover the absolute basics of HTML. To get you started, this article defines elements, attributes, and all the other important terms you may have heard. It also explains where these fit into HTML. You will
+              learn how HTML elements are structured, how a typical HTML page is structured, and other important basic language features. Along the way, there will be an opportunity to play with HTML too!
+            </p>
+            <h3 class="doc-sub-title">What is HTML?</h3>
+            <p>
+              HTML (Hypertext Markup Language) is not a programming language. It is a markup language that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to
+              be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to
+              another page, italicize words, and so on. For example, consider the following line of text:
+            </p>
+            <pre class="box-code">My cat is very grumpy</pre>
+            <p>
+              If we wanted the text to stand by itself, we could specify that it is a paragraph by enclosing it in a paragraph (<code><span><</span><span>p</span><span>></span></code
+              >) element:
+            </p>
+            <pre class="box-code"><span><</span><span>p</span><span>></span>My cat is very grumpy<span><</span><span>/</span><span>p</span><span>></span></pre>
+            <aside class="box-note">
+              <p>
+                <span class="title-note">Note:</span> Tags in HTML are case-insensitive. This means they can be written in uppercase or lowercase. For example, a tag could be written as
+                <code><span><</span><span>title</span><span>></span></code
+                >. However, it is best practice to write all tags in lowercase for consistency, readability, and other reasons.
+              </p>
+            </aside>
+            <h3 class="doc-sub-title">Anatomy of an HTML element</h3>
+            <p>Let's further explore our paragraph element from the previous section:</p>
+            <img src="https://myeskool.files.wordpress.com/2019/05/image-2.png" alt="" />
+            <p>The anatomy of our element is:</p>
+            <ul>
+              <li>
+                <p>
+                  <strong>The opening tag:</strong> This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to
+                  take effect. In this example, it precedes the start of the paragraph text.
+                </p>
+              </li>
+              <li>
+                <p><strong>The content:</strong> This is the content of the element. In this example, it is the paragraph text.</p>
+              </li>
+              <li>
+                <p>
+                  <strong>The closing tag:</strong> This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common
+                  beginner error that can produce peculiar results.
+                </p>
+              </li>
+            </ul>
+            <p>The element is the opening tag, followed by content, followed by the closing tag.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="main-section" id="Multimedia_and_embedding_overview">
+        <header class="doc-title">Multimedia and embedding overview</header>
+        <div class="container">
+          <article><h2 class="doc-no">Work Stage</h2></article>
+        </div>
+      </section>
+
+      <section class="main-section" id="Images_in_HTML">
+        <header class="doc-title">Images in HTML</header>
+        <div class="container">
+          <article class="document">
+            <p>
+              In the beginning, the Web was just text, and it was really quite boring. Fortunately, it wasn't too long before the ability to embed images (and other more interesting types of content) inside web pages was added. There are
+              other types of multimedia to consider, but it is logical to start with the humble <code><span><</span><span>img</span><span>></span></code> element, used to embed a simple image in a webpage. In this article we'll look at how
+              to use it in depth, including the basics, annotating it with captions using <code><span><</span><span>figure</span><span>></span></code
+              >, and detailing how it relates to CSS background images.
+            </p>
+            <h3 class="doc-sub-title">How do we put an image on a webpage?</h3>
+            <p>
+              In order to put a simple image on a webpage, we use the <code><span><</span>img<span></span><span>></span></code> element. This is an empty element (meaning that it has no text content or closing tag) that requires a minimum
+              of one attribute to be useful — <code>src</code> (sometimes spoken as its full title, source). The src attribute contains a path pointing to the image you want to embed in the page, which can be a relative or absolute URL, in
+              the same way as <code>href</code> attribute values in <code><span><</span><span>a</span><span>></span></code> elements.
+            </p>
+            <aside class="box-note">
+              <p><span class="title-note">Note:</span> You should read A quick primer on URLs and paths to refresh your memory on relative and absolute URLs before continuing.</p>
+            </aside>
+            <p>So for example, if your image is called <code>dinosaur.jpg</code>, and it sits in the same directory as your HTML page, you could embed the image like so:</p>
+            <pre class="box-code"><span><</span>img src="dinosaur.jpg"<span>></span></pre>
+            <p>If the image was in an <code>images</code> subdirectory, which was inside the same directory as the HTML page (which Google recommends for SEO/indexing purposes), then you'd embed it like this:</p>
+            <pre class="box-code"><span><</span>img src="images/dinosaur.jpg"<span>></span></pre>
+            <p>And so on.</p>
+            <aside class="box-note">
+              <p><span class="title-note">Note:</span> Search engines also read image filenames and count them towards SEO. Therefore, you should give your image a descriptive filename; dinosaur.jpg is better than img835.png.</p>
+            </aside>
+            <p>You could embed the image using its absolute URL, for example:</p>
+            <pre class="box-code"><span><</span>img src="https://www.example.com/images/dinosaur.jpg"<span>></span></pre>
+            <p>But this is pointless, as it just makes the browser do more work, looking up the IP address from the DNS server all over again, etc. You'll almost always keep the images for your website on the same server as your HTML.</p>
+            <aside class="box-warning">
+              <p><span class="title-warning">Warning:</span> Most images are copyrighted. Do not display an image on your webpage unless:</p>
+              <ul>
+                <li><p>You own the image.</p></li>
+                <li><p>have received explicit, written permission from the image owner.</p></li>
+                <li><p>You have ample proof that the image is, in fact, in the public domain.</p></li>
+              </ul>
+              <p>
+                Copyright violations are illegal and unethical. In addition, <strong>never</strong> point your <code>src</code> attribute at an image hosted on someone else's website that you don't have permission to link to. This is called
+                "hotlinking". Again, stealing someone's bandwidth is illegal. It also slows down your page, leaving you with no control over whether the image is removed or replaced with something embarrassing.
+              </p>
+            </aside>
+            <p>Our above code would give us the following result:</p>
+            <img src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML/basic-image.png" alt="" />
+            <aside class="box-note">
+              <p>
+                <span class="title-note">Note:</span> Elements like <code><span><</span>img<span></span><span>></span></code> and <code><span><</span>video<span></span><span>></span></code> are sometimes referred to as replaced elements.
+                This is because the element's content and size are defined by an external resource (like an image or video file), not by the contents of the element itself. You can read more about them at Replaced elements.
+              </p>
+            </aside>
+            <aside class="box-note">
+              <p><span class="title-note">Note:</span> You can find the finished example from this section running on Github (see the source code too.)</p>
+            </aside>
+          </article>
+        </div>
+      </section>
+
+      <section class="main-section" id="HTML_tables_overview">
+        <header class="doc-title">HTML tables overview</header>
+        <div class="container">
+          <article><h2 class="doc-no">Work Stage</h2></article>
+        </div>
+      </section>
+
+      <section class="main-section" id="CSS">
+        <header class="doc-title"><u>CSS</u></header>
+        <div class="container">
+          <article><h2 class="doc-no">Work Stage</h2></article>
+        </div>
+      </section>
+
+      <section class="main-section" id="CSS_first_steps_overview">
+        <header class="doc-title">CSS first steps overview</header>
+        <div class="container">
+          <article><h2 class="doc-no">Work Stage</h2></article>
+        </div>
+      </section>
+
+      <section class="main-section" id="What_is_CSS?">
+        <header class="doc-title">What is CSS?</header>
+        <div class="container">
+          <article><h2 class="doc-no">Work Stage</h2></article>
+        </div>
+      </section>
+
+      <section class="main-section" id="CSS_building_blocks_overview">
+        <header class="doc-title">CSS building blocks overview</header>
+        <div class="container">
+          <article><h2 class="doc-no">Work Stage</h2></article>
+        </div>
+      </section>
+
+      <section class="main-section" id="Cascade_and_inheritance">
+        <header class="doc-title">Cascade and inheritance</header>
+        <div class="container">
+          <article><h2 class="doc-no">Work Stage</h2></article>
+        </div>
+      </section>
+
+      <section class="main-section" id="Styling_text_overview">
+        <header class="doc-title">Styling text overview</header>
+        <div class="container">
+          <article><h2 class="doc-no">Work Stage</h2></article>
+        </div>
+      </section>
+
+      <section class="main-section" id="CSS_layout_overview">
+        <header class="doc-title">CSS layout overview</header>
+        <div class="container">
+          <article>
+            <h2 class="doc-no">Work Stage</h2>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="asset/main.js"></script>
+  </body>
+</html>
