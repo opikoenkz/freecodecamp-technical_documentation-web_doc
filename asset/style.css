@@ -6,12 +6,12 @@
   /*========== Colors ==========*/
   --body-color: #fafafa;
   --nav-color: #3b3b3b;
-  --nav-title-color: #fcfcfc;
+  --nav-title: #fcfcfc;
   --search-color: #fdfdfd;
   --title-color: #1b1b1b;
+  --text-color: #1c1c1d;
   --title-link: #104785;
   --text-link: #2778d4;
-  --text-color: #1c1c1d;
 
   /*========== Font and typography ==========*/
   --normal-font-size: 1rem;
@@ -20,8 +20,9 @@
 
   /*========== Font weight ==========*/
   --font-small: 300;
+  --font-semi-medium: 400;
   --font-medium: 500;
-  --font-semi-bold: 600;
+  --font-semi-large: 600;
   --font-large: 700;
 }
 
