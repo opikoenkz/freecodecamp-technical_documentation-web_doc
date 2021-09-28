@@ -11,4 +11,4 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 Using Technology:
 HTML, CSS & Javascript
 
-This website is a web challenge from freeCodeCamp URL: https://opikoenkz.github.io/freecodecamp-technical_documentation-web_doc/
+This website is a web challenge from freeCodeCamp URL: https://opikoenkz.github.io/freecodecamp-technical_documentation-web_doc/ or URL: https://technicaldoc-webdevdocs.netlify.app/
